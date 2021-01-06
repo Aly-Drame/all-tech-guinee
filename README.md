@@ -1,2 +1,3 @@
-#Company Website
-[Link]{aly-drame.github.io/all-tech-guinee}
+#AllTechGuinee
+all-tech-guinee
+[Link](aly-drame.github.io/all-tech-guinee)
