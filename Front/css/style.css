@@ -181,7 +181,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
     width: 100%;
     position: relative;
-    background: url(../../slider.png) center bottom no-repeat;
     background-size: cover;
     padding: 200px 0 120px 0;
 	top:0px;
