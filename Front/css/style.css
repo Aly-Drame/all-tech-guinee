@@ -17,7 +17,9 @@ a {
   transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #51d8af;
   outline: none;
   text-decoration: none;
@@ -28,7 +30,12 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -39,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #1E96C5;
+  background: #1e96c5;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -90,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 4px 4px 0 0;
 }
 .contact-info.float-left {
-    color: #acacac;
+  color: #acacac;
 }
 #topbar .contact-info .fa-phone {
   padding-left: 20px;
@@ -119,14 +126,14 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: transparent;
-} 
+}
 .sticky-wrapper {
-    position: absolute;
-    width: 100%;
-    z-index: 9;
-	top:0px;
-  padding: 20px 0;     
-	    background: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+  top: 0px;
+  padding: 20px 0;
+  background: transparent;
 }
 #header #logo h1 {
   font-size: 28px;
@@ -153,14 +160,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .is-sticky #header {
-    background: #fff;
-    padding: 20px 0;
+  background: #fff;
+  padding: 20px 0;
 }
-.is-sticky #header #logo h1 a .gui{
-  color: #061E33;
+.is-sticky #header #logo h1 a .gui {
+  color: #061e33;
 }
-.is-sticky header .nav-menu a{
-	color:#061E33;
+.is-sticky header .nav-menu a {
+  color: #061e33;
 }
 @media (max-width: 768px) {
   #header {
@@ -179,15 +186,15 @@ h1, h2, h3, h4, h5, h6 {
 # Intro Section
 --------------------------------------------------------------*/
 #hero {
-    width: 100%;
-    position: relative;
-    background-size: cover;
-    padding: 200px 0 120px 0;
-	top:0px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  padding: 200px 0 120px 0;
+  top: 0px;
 }
 #hero .hero-banner {
-    width: 50%;
-    float: right;
+  width: 50%;
+  float: right;
 }
 #hero .hero-content {
   position: absolute;
@@ -206,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
   font-size: 29px;
   text-align: left;
-} 
+}
 #hero .hero-content h2 span {
   color: #fff;
   text-align: right;
@@ -223,7 +230,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#hero .hero-content .btn-banner, #hero .hero-content .btn-projects {
+#hero .hero-content .btn-banner,
+#hero .hero-content .btn-projects {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: bold;
@@ -237,14 +245,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-content .btn-banner {
-  background: #1E96C5;
-  border: 2px solid #1E96C5;
+  background: #1e96c5;
+  border: 2px solid #1e96c5;
   border-radius: 30px;
 }
 
 #hero .hero-content .btn-banner:hover {
   background: none;
-  color: #1E96C5;
+  color: #1e96c5;
 }
 
 #hero .hero-content .btn-projects {
@@ -262,7 +270,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero #hero-carousel::before {
-  content: '';
+  content: "";
   background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   height: 100%;
@@ -288,7 +296,8 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -367,12 +376,13 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #1E96C5;
+.nav-menu li:hover > a,
+.nav-menu > .menu-active > a {
+  color: #1e96c5;
 }
 
-#header #logo h1 a .gui{
-  color : white;
+#header #logo h1 a .gui {
+  color: white;
 }
 
 .nav-menu > li {
@@ -444,7 +454,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 260px;
   overflow-y: auto;
   transition: 0.4s;
-  background: #1E96C5;
+  background: #1e96c5;
 }
 
 #mobile-nav ul {
@@ -520,30 +530,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------------------------------------------------
 Inner Banner
 ---------------------------------------------------*/
-#innerBanner{
-	padding: 138px 0 64px;
-	text-align:center;
-	background: #596bf3;
-	background: linear-gradient(45deg, #1E96C5 -55%, #1E96C5 100%);
+#innerBanner {
+  padding: 138px 0 64px;
+  text-align: center;
+  background: #596bf3;
+  background: linear-gradient(45deg, #1e96c5 -55%, #1e96c5 100%);
 }
-#innerBanner h2{
-	color:#fff;
-	text-align:center;
-	font-weight:normal;
-	font-size:18px;
-	margin:0px;
+#innerBanner h2 {
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0px;
 }
-#innerBanner h2 span{
-	color:#fff;
-	font-weight:bold;
-	font-size:38px;
-	text-align:center;
+#innerBanner h2 span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
 }
-.svgImg{
-	
+.svgImg {
 }
-.svgImg img{
-	width:120px;
+.svgImg img {
+  width: 120px;
 }
 /*--------------------------------------------------------------
 # Sections
@@ -566,14 +575,14 @@ Inner Banner
 }
 
 .section-header h2::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 62px;
   height: 3px;
   bottom: 0;
   left: 0;
-  border-top: #1E96C5 solid 2px;
+  border-top: #1e96c5 solid 2px;
   right: 0;
   text-align: center;
   margin: 0 auto;
@@ -726,7 +735,8 @@ Inner Banner
     text-align: center;
     padding-bottom: 15px;
   }
-  #services .box h4, #services .box p {
+  #services .box h4,
+  #services .box p {
     margin-left: 0;
     text-align: center;
   }
@@ -749,7 +759,8 @@ Inner Banner
   opacity: 1;
 }
 
-#clients .owl-nav, #clients .owl-dots {
+#clients .owl-nav,
+#clients .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -807,11 +818,11 @@ Inner Banner
   padding: 25px;
   /* background: linear-gradient(45deg, #596bf357 0%, #405ece91 100%); */
 }
-#portfolio .portfolio-item h2{
-  opacity:0;
+#portfolio .portfolio-item h2 {
+  opacity: 0;
 }
-#portfolio .portfolio-item:hover h2{
-opacity:1;
+#portfolio .portfolio-item:hover h2 {
+  opacity: 1;
 }
 #portfolio .portfolio-item img {
   -webkit-transition: all ease-in-out 0.4s;
@@ -905,7 +916,8 @@ opacity:1;
   color: #686868;
 }
 
-#testimonials .owl-nav, #testimonials .owl-dots {
+#testimonials .owl-nav,
+#testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -922,27 +934,26 @@ opacity:1;
 #testimonials .owl-dot.active {
   background-color: #07cc91;
 }
-.map{
-	
-margin: 80px auto 40px;
+.map {
+  margin: 80px auto 40px;
 }
 p.help-block,
-p.help-block ul{
-    float: left; 
-    margin: 0;
-    padding: 0;
+p.help-block ul {
+  float: left;
+  margin: 0;
+  padding: 0;
 }
 p.help-block li {
-    float: left; 
-    margin: 10px 0 0 0;
-    padding: 0;
-    list-style:none;
-    color:red;
+  float: left;
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+  color: red;
 }
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #1E96C5;
+  background: #1e96c5;
   background-size: cover;
   padding: 40px 0;
 }
@@ -1041,7 +1052,7 @@ p.help-block li {
   /* opacity: .4; */
   padding: 4px;
 }
-#team .member .social a:hover{
+#team .member .social a:hover {
   color: #081e5b;
   margin: 2px 6px;
   border: 1px solid #081e5b;
@@ -1071,7 +1082,8 @@ p.help-block li {
   float: left;
 }
 
-#contact .contact-info address, #contact .contact-info p {
+#contact .contact-info address,
+#contact .contact-info p {
   margin-bottom: 0;
   color: #000;
   display: block;
@@ -1102,12 +1114,16 @@ p.help-block li {
   color: #596bf3;
 }
 
-#contact .contact-address, #contact .contact-phone, #contact .contact-email {
+#contact .contact-address,
+#contact .contact-phone,
+#contact .contact-email {
   margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
-  #contact .contact-address, #contact .contact-phone, #contact .contact-email {
+  #contact .contact-address,
+  #contact .contact-phone,
+  #contact .contact-email {
     padding: 0;
     text-align: left;
   }
@@ -1127,9 +1143,9 @@ p.help-block li {
   #contact #google-map {
     margin-top: 20px;
   }
-  #hero .hero-content { 
+  #hero .hero-content {
     left: 5%;
-	}
+  }
 }
 
 #contact .form #sendmessage {
@@ -1152,7 +1168,9 @@ p.help-block li {
   margin-bottom: 15px;
 }
 
-#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+#contact .form #sendmessage.show,
+#contact .form #errormessage.show,
+#contact .form .show {
   display: block;
 }
 
@@ -1164,7 +1182,8 @@ p.help-block li {
   font-size: 13px;
 }
 
-#contact .form input, #contact .form textarea {
+#contact .form input,
+#contact .form textarea {
   padding: 10px 14px;
   border-radius: 0;
   box-shadow: none;
@@ -1172,7 +1191,7 @@ p.help-block li {
 }
 
 #contact .form button[type="submit"] {
-  background: #1E96C6;
+  background: #1e96c6;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
@@ -1199,10 +1218,10 @@ p.help-block li {
   text-align: center;
   padding-top: 30px;
   color: #ffffffad;
-  font-size:13px;
+  font-size: 13px;
 }
-#footer .copyright a{
-  color: #07cc91;	
+#footer .copyright a {
+  color: #07cc91;
 }
 #footer .credits {
   text-align: center;
@@ -1213,11 +1232,11 @@ p.help-block li {
 
 #footer .credits a {
   color: #07cc91;
-  font-size:12px;
+  font-size: 12px;
 }
 .owl-carousel .owl-item img {
-    display: block;
-    width: auto;
-    height: 70px;
-    margin: 0 auto;
+  display: block;
+  width: auto;
+  height: 70px;
+  margin: 0 auto;
 }
